@@ -1,0 +1,111 @@
+
+role2.png
+size: 156,142
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+role2/pifeng
+  rotate: false
+  xy: 39, 48
+  size: 63, 92
+  orig: 63, 92
+  offset: 0, 0
+  index: -1
+role2/shenzi
+  rotate: true
+  xy: 19, 5
+  size: 32, 46
+  orig: 32, 46
+  offset: 0, 0
+  index: -1
+role2/shouji
+  rotate: true
+  xy: 67, 5
+  size: 41, 63
+  orig: 41, 63
+  offset: 0, 0
+  index: -1
+role2/yingzi
+  rotate: true
+  xy: 2, 37
+  size: 103, 3
+  orig: 103, 3
+  offset: 0, 0
+  index: -1
+role2/youbi
+  rotate: false
+  xy: 132, 114
+  size: 21, 26
+  orig: 21, 26
+  offset: 0, 0
+  index: -1
+role2/youjiao
+  rotate: false
+  xy: 135, 30
+  size: 19, 36
+  orig: 19, 36
+  offset: 0, 0
+  index: -1
+role2/youshou
+  rotate: false
+  xy: 104, 75
+  size: 13, 32
+  orig: 13, 32
+  offset: 0, 0
+  index: -1
+role2/youtui
+  rotate: true
+  xy: 104, 48
+  size: 18, 29
+  orig: 18, 29
+  offset: 0, 0
+  index: -1
+role2/youxie
+  rotate: true
+  xy: 119, 92
+  size: 15, 11
+  orig: 15, 11
+  offset: 0, 0
+  index: -1
+role2/zhang
+  rotate: false
+  xy: 7, 39
+  size: 30, 101
+  orig: 30, 101
+  offset: 0, 0
+  index: -1
+role2/zuobi
+  rotate: true
+  xy: 104, 123
+  size: 17, 24
+  orig: 17, 24
+  offset: 0, 0
+  index: -1
+role2/zuojiao
+  rotate: false
+  xy: 2, 2
+  size: 15, 33
+  orig: 15, 33
+  offset: 0, 0
+  index: -1
+role2/zuoshou
+  rotate: false
+  xy: 104, 109
+  size: 24, 12
+  orig: 24, 12
+  offset: 0, 0
+  index: -1
+role2/zuotui
+  rotate: false
+  xy: 132, 68
+  size: 20, 32
+  orig: 20, 32
+  offset: 0, 0
+  index: -1
+role2/zuoxie
+  rotate: false
+  xy: 132, 102
+  size: 21, 10
+  orig: 21, 10
+  offset: 0, 0
+  index: -1

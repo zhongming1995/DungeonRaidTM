@@ -1,0 +1,74 @@
+{
+  "1": {
+    "id": 1,
+    "icon01": 100001,
+    "name01": "whip",
+    "icon02": 100027,
+    "name02": "heart of the empty",
+    "icon03": 100002,
+    "name03": "Vampire whip"
+  },
+  "2": {
+    "id": 2,
+    "icon01": 100003,
+    "name01": "Magic wand",
+    "icon02": 100033,
+    "name02": "book of blank",
+    "icon03": 100004,
+    "name03": "Advanced wand"
+  },
+  "3": {
+    "id": 3,
+    "icon01": 100005,
+    "name01": "knife",
+    "icon02": 100026,
+    "name02": "Accelerate the gloves",
+    "icon03": 100006,
+    "name03": "Xiao li fly knife"
+  },
+  "4": {
+    "id": 4,
+    "icon01": 100015,
+    "name01": "Ghost circle",
+    "icon02": 100025,
+    "name02": "Red hearts",
+    "icon03": 100016,
+    "name03": "Soul devouring"
+  },
+  "5": {
+    "id": 5,
+    "icon01": 100007,
+    "name01": "hammer",
+    "icon02": 100029,
+    "name02": "Golden armour",
+    "icon03": 100008,
+    "name03": ""
+  },
+  "6": {
+    "id": 6,
+    "icon01": 100013,
+    "name01": "fireball",
+    "icon02": 100032,
+    "name02": "candle",
+    "icon03": 100014,
+    "name03": "meteorites"
+  },
+  "7": {
+    "id": 7,
+    "icon01": 100017,
+    "name01": "Corrosive liquid",
+    "icon02": 100035,
+    "name02": "Space trip",
+    "icon03": 100018,
+    "name03": "plague bomb"
+  },
+  "8": {
+    "id": 8,
+    "icon01": 100051,
+    "name01": "sickle",
+    "icon02": 100034,
+    "name02": "spinach",
+    "icon03": 100052,
+    "name03": "god of death sickle"
+  }
+}

@@ -1,0 +1,139 @@
+
+role6.png
+size: 308,77
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+role6/chuizi
+  rotate: true
+  xy: 166, 25
+  size: 50, 35
+  orig: 50, 35
+  offset: 0, 0
+  index: -1
+role6/pifeng
+  rotate: true
+  xy: 2, 3
+  size: 72, 83
+  orig: 72, 83
+  offset: 0, 0
+  index: -1
+role6/shenti
+  rotate: false
+  xy: 87, 7
+  size: 36, 68
+  orig: 36, 68
+  offset: 0, 0
+  index: -1
+role6/shouji
+  rotate: false
+  xy: 125, 25
+  size: 39, 50
+  orig: 39, 50
+  offset: 0, 0
+  index: -1
+role6/yingzi
+  rotate: false
+  xy: 87, 2
+  size: 100, 3
+  orig: 100, 3
+  offset: 0, 0
+  index: -1
+role6/youbi
+  rotate: false
+  xy: 247, 3
+  size: 17, 31
+  orig: 17, 31
+  offset: 0, 0
+  index: -1
+role6/youhuitui
+  rotate: false
+  xy: 203, 42
+  size: 28, 33
+  orig: 28, 33
+  offset: 0, 0
+  index: -1
+role6/youjian
+  rotate: true
+  xy: 285, 11
+  size: 24, 21
+  orig: 24, 21
+  offset: 0, 0
+  index: -1
+role6/youjiao
+  rotate: true
+  xy: 242, 36
+  size: 19, 33
+  orig: 19, 33
+  offset: 0, 0
+  index: -1
+role6/youshou
+  rotate: true
+  xy: 125, 8
+  size: 15, 27
+  orig: 15, 27
+  offset: 0, 0
+  index: -1
+role6/youtui
+  rotate: true
+  xy: 207, 2
+  size: 21, 38
+  orig: 21, 38
+  offset: 0, 0
+  index: -1
+role6/youxie
+  rotate: false
+  xy: 224, 27
+  size: 16, 13
+  orig: 16, 13
+  offset: 0, 0
+  index: -1
+role6/zipbi
+  rotate: true
+  xy: 277, 37
+  size: 18, 29
+  orig: 18, 50
+  offset: 0, 21
+  index: -1
+role6/zuohutui
+  rotate: true
+  xy: 271, 57
+  size: 18, 32
+  orig: 18, 32
+  offset: 0, 0
+  index: -1
+role6/zuojian
+  rotate: true
+  xy: 203, 25
+  size: 15, 19
+  orig: 15, 19
+  offset: 0, 0
+  index: -1
+role6/zuojiao
+  rotate: false
+  xy: 266, 3
+  size: 17, 31
+  orig: 17, 31
+  offset: 0, 0
+  index: -1
+role6/zuoshou_
+  rotate: true
+  xy: 154, 8
+  size: 15, 27
+  orig: 15, 27
+  offset: 0, 0
+  index: -1
+role6/zuotui
+  rotate: true
+  xy: 233, 57
+  size: 18, 36
+  orig: 18, 36
+  offset: 0, 0
+  index: -1
+role6/zuoxie
+  rotate: false
+  xy: 183, 9
+  size: 22, 14
+  orig: 22, 14
+  offset: 0, 0
+  index: -1

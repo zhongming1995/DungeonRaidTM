@@ -1,0 +1,21 @@
+{
+  "ver": "1.1.3",
+  "uuid": "1e465c69-2990-4993-955a-f123b0c18aad",
+  "importer": "folder",
+  "isBundle": true,
+  "bundleName": "dlg",
+  "priority": "6",
+  "compressionType": {
+    "bytedance": "default"
+  },
+  "optimizeHotUpdate": {
+    "bytedance": false
+  },
+  "inlineSpriteFrames": {
+    "bytedance": false
+  },
+  "isRemoteBundle": {
+    "bytedance": false
+  },
+  "subMetas": {}
+}

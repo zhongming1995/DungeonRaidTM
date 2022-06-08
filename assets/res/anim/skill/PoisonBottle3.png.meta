@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "d8d3a3b0-afdb-41c4-8f2c-a092a7972ad1",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 165,
+  "height": 142,
+  "platformSettings": {},
+  "subMetas": {
+    "PoisonBottle3": {
+      "ver": "1.0.6",
+      "uuid": "423d01b4-2533-4bd2-9856-5b2fcd881b7a",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "d8d3a3b0-afdb-41c4-8f2c-a092a7972ad1",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 165,
+      "height": 142,
+      "rawWidth": 165,
+      "rawHeight": 142,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

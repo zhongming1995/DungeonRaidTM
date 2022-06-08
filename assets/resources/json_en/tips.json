@@ -1,0 +1,51 @@
+{
+  "1": {
+    "id": 1,
+    "scene_id": 1,
+    "random_wi": 10,
+    "cd_times": 5,
+    "tips": "Early selection of weapons will greatly improve oneself combat effectiveness"
+  },
+  "2": {
+    "id": 2,
+    "scene_id": 1,
+    "random_wi": 10,
+    "cd_times": 5,
+    "tips": "If the skill you have a choice of isn't what you want, try swapping out a batch"
+  },
+  "3": {
+    "id": 3,
+    "scene_id": 1,
+    "random_wi": 10,
+    "cd_times": 5,
+    "tips": "strengthening stats will make combat easier"
+  },
+  "4": {
+    "id": 4,
+    "scene_id": 1,
+    "random_wi": 10,
+    "cd_times": 5,
+    "tips": "Unlocking the chest gives you a chance to acquire a super weapon"
+  },
+  "5": {
+    "id": 5,
+    "scene_id": 1,
+    "random_wi": 10,
+    "cd_times": 5,
+    "tips": "More chests will upgrade your skills faster"
+  },
+  "6": {
+    "id": 6,
+    "scene_id": 1,
+    "random_wi": 10,
+    "cd_times": 5,
+    "tips": "In 30 minutes we have a super powerful boss"
+  },
+  "7": {
+    "id": 7,
+    "scene_id": 1,
+    "random_wi": 10,
+    "cd_times": 5,
+    "tips": "The right mix of skills makes it easier to beat the game"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "ver": "1.1.3",
+  "uuid": "18949963-a8a4-47f1-8cf1-df361f9e7242",
+  "importer": "folder",
+  "isBundle": true,
+  "bundleName": "sound",
+  "priority": "6",
+  "compressionType": {
+    "bytedance": "default"
+  },
+  "optimizeHotUpdate": {
+    "bytedance": false
+  },
+  "inlineSpriteFrames": {
+    "bytedance": false
+  },
+  "isRemoteBundle": {
+    "bytedance": false
+  },
+  "subMetas": {}
+}

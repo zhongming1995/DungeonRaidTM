@@ -1,0 +1,33 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "anim_AY3",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.5,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 2,
+  "curveData": {
+    "paths": {
+      "AY3": {
+        "props": {
+          "angle": [
+            {
+              "frame": 0,
+              "value": -24
+            },
+            {
+              "frame": 0.25,
+              "value": 24
+            },
+            {
+              "frame": 0.5,
+              "value": -24
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}

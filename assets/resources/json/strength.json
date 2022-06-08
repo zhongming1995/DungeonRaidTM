@@ -1,0 +1,152 @@
+{
+  "610001": {
+    "id": 610001,
+    "skill_name": "力量",
+    "skill_maxlevel": 5,
+    "skill_cost": "200,500,800,1500,3000",
+    "skill_effect": "101,101,101,101,101",
+    "skill_value": "0.05,0.1,0.15,0.2,0.25",
+    "skill_detail": "造成伤害每级增加5%",
+    "skill_icon": 100010
+  },
+  "610002": {
+    "id": 610002,
+    "skill_name": "护甲",
+    "skill_maxlevel": 3,
+    "skill_cost": "800,1500,3000",
+    "skill_effect": "151,151,151",
+    "skill_value": "1,2,3",
+    "skill_detail": "受到伤害每级减少1点",
+    "skill_icon": 100029
+  },
+  "610003": {
+    "id": 610003,
+    "skill_name": "生命上限",
+    "skill_maxlevel": 5,
+    "skill_cost": "200,500,800,1500,3000",
+    "skill_effect": "162,162,162,162,162",
+    "skill_value": "0.1,0.2,0.3,0.4,0.5",
+    "skill_detail": "最大生命每级增加10%",
+    "skill_icon": 100025
+  },
+  "610004": {
+    "id": 610004,
+    "skill_name": "恢复",
+    "skill_maxlevel": 5,
+    "skill_cost": "200,500,800,1500,3000",
+    "skill_effect": "152,152,152,152,152",
+    "skill_value": "0.01,0.02,0.03,0.04,0.05",
+    "skill_detail": "每级每秒恢复0.1点生命值",
+    "skill_icon": 100028
+  },
+  "610005": {
+    "id": 610005,
+    "skill_name": "冷却",
+    "skill_maxlevel": 2,
+    "skill_cost": "1000,2000",
+    "skill_effect": "102,102",
+    "skill_value": "0.025,0.05",
+    "skill_detail": "使用武器的速度每级提高2.5%",
+    "skill_icon": 100006
+  },
+  "610006": {
+    "id": 610006,
+    "skill_name": "攻击范围",
+    "skill_maxlevel": 3,
+    "skill_cost": "800,1500,3000",
+    "skill_effect": "103,103,103",
+    "skill_value": "0.05,0.1,0.15",
+    "skill_detail": "攻击范围每级增加5%",
+    "skill_icon": 100032
+  },
+  "610007": {
+    "id": 610007,
+    "skill_name": "攻速",
+    "skill_maxlevel": 2,
+    "skill_cost": "1000,2000",
+    "skill_effect": "104,104",
+    "skill_value": "0.1,0.2",
+    "skill_detail": "射弹的移动速度每级提升10%",
+    "skill_icon": 100021
+  },
+  "610008": {
+    "id": 610008,
+    "skill_name": "持续时间",
+    "skill_maxlevel": 2,
+    "skill_cost": "1000,2000",
+    "skill_effect": "105,105",
+    "skill_value": "0.15,0.3",
+    "skill_detail": "武器效果持续时间每级延长15%",
+    "skill_icon": 100045
+  },
+  "610009": {
+    "id": 610009,
+    "skill_name": "影分身",
+    "skill_maxlevel": 1,
+    "skill_cost": 8000,
+    "skill_effect": 106,
+    "skill_value": 1,
+    "skill_detail": "多发射1发射弹（所有武器）",
+    "skill_icon": 100024
+  },
+  "610010": {
+    "id": 610010,
+    "skill_name": "移速",
+    "skill_maxlevel": 2,
+    "skill_cost": "1500,3000",
+    "skill_effect": "153,153",
+    "skill_value": "0.05,0.1",
+    "skill_detail": "角色移动速度每级提升5%",
+    "skill_icon": 100036
+  },
+  "610011": {
+    "id": 610011,
+    "skill_name": "磁铁",
+    "skill_maxlevel": 5,
+    "skill_cost": "500,1000,1500,2000,4000",
+    "skill_effect": "154,154,154,154,154",
+    "skill_value": "0.1,0.2,0.3,0.4,0.5",
+    "skill_detail": "物品拾取范围每级增加10%",
+    "skill_icon": 100048
+  },
+  "610012": {
+    "id": 610012,
+    "skill_name": "四叶草",
+    "skill_maxlevel": 5,
+    "skill_cost": "500,1000,1500,2000,4000",
+    "skill_effect": "155,155,155,155,155",
+    "skill_value": "0.05,0.1,0.15,0.2,0.25",
+    "skill_detail": "每级有几率增加5%幸运值",
+    "skill_icon": 100031
+  },
+  "610013": {
+    "id": 610013,
+    "skill_name": "成长",
+    "skill_maxlevel": 5,
+    "skill_cost": "500,1000,1500,2000,4000",
+    "skill_effect": "157,157,157,157,157",
+    "skill_value": "0.03,0.06,0.09,0.12,0.15",
+    "skill_detail": "每级多获得3%经验值",
+    "skill_icon": 100028
+  },
+  "610014": {
+    "id": 610014,
+    "skill_name": "勋章",
+    "skill_maxlevel": 5,
+    "skill_cost": "500,1000,1500,2000,4000",
+    "skill_effect": "159,159,159,159,159",
+    "skill_value": "0.1,0.2,0.3,0.4,0.5",
+    "skill_detail": "每级多获得10%金币",
+    "skill_icon": 100037
+  },
+  "610015": {
+    "id": 610015,
+    "skill_name": "复活",
+    "skill_maxlevel": 1,
+    "skill_cost": 5000,
+    "skill_effect": 160,
+    "skill_value": 1,
+    "skill_detail": "以50%生命值复活1次",
+    "skill_icon": 100044
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "1": {
+    "id": 1,
+    "scene_id": 1,
+    "random_wi": 10,
+    "cd_times": 5,
+    "tips": "前期选择武器会大幅度提升自己的战斗力"
+  },
+  "2": {
+    "id": 2,
+    "scene_id": 1,
+    "random_wi": 10,
+    "cd_times": 5,
+    "tips": "如果升级的技能不好可以尝试一下随机"
+  },
+  "3": {
+    "id": 3,
+    "scene_id": 1,
+    "random_wi": 10,
+    "cd_times": 5,
+    "tips": "强化属性会使战斗更加简单"
+  },
+  "4": {
+    "id": 4,
+    "scene_id": 1,
+    "random_wi": 10,
+    "cd_times": 5,
+    "tips": "宝箱中可以开出超武"
+  },
+  "5": {
+    "id": 5,
+    "scene_id": 1,
+    "random_wi": 10,
+    "cd_times": 5,
+    "tips": "多开宝箱会更快升级技能"
+  },
+  "6": {
+    "id": 6,
+    "scene_id": 1,
+    "random_wi": 10,
+    "cd_times": 5,
+    "tips": "30分钟之后会出现超级强力的首领"
+  },
+  "7": {
+    "id": 7,
+    "scene_id": 1,
+    "random_wi": 10,
+    "cd_times": 5,
+    "tips": "合理的技能搭配能让通关更简单"
+  }
+}

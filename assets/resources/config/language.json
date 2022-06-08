@@ -1,0 +1,122 @@
+{
+    "大招模式": {
+        "zh": "大招模式",
+        "en": "Super model"
+    },
+    "双生模式": {
+        "zh": "双生模式",
+        "en": "Twin models"
+    },
+    "躺平模式": {
+        "zh": "躺平模式",
+        "en": "Lie flat pattern"
+    },
+    "开发中,敬请期待": {
+        "zh": "开发中,敬请期待",
+        "en": "Under development, stay tuned"
+    },
+    "观看xx/xx次视频即可解锁英雄": {
+        "zh": "观看xx/xx次视频即可解锁英雄",
+        "en": "video xx/xx unlock Hero"
+    },
+    "金币不足": {
+        "zh": "金币不足",
+        "en": "be short of gold coins"
+    },
+    "待领取": {
+        "zh": "待领取",
+        "en": "To receive"
+    },
+    "解锁": {
+        "zh": "解锁",
+        "en": "unlock"
+    },
+    "开局自带超武，轻松躺平发育": {
+        "zh": "开局自带超武，轻松躺平发育",
+        "en": "Start with your own super weapon"
+    },
+    "神器影分身，割草随你心！": {
+        "zh": "神器影分身，割草随你心！",
+        "en": "Artifact shadow body, cut the grass as you like！"
+    },
+    "开局增强": {
+        "zh": "开局增强",
+        "en": "Start to increase"
+    },
+    "合成表": {
+        "zh": "合成表",
+        "en": "Composed table"
+    },
+    "选择升级技能": {
+        "zh": "选择升级技能",
+        "en": "Choose to upgrade skills"
+    },
+    "提升您的幸运，有机会获得四个选项": {
+        "zh": "提升您的幸运，有机会获得四个选项",
+        "en": "To increase your luck, you have the chance to receive four options"
+    },
+    "满级武器+对应效果=": {
+        "zh": "满级武器+对应效果=",
+        "en": "Weapon at Max Level + Effect ="
+    },
+    "超级武器": {
+        "zh": "超级武器",
+        "en": "Super weapon"
+    },
+    "新": {
+        "zh": "新",
+        "en": "NEW"
+    },
+    "开启音乐": {
+        "zh": "开启音乐",
+        "en": "Open the music"
+    },
+    "开启音效": {
+        "zh": "开启音效",
+        "en": "Open the sound"
+    },
+    "持有技能：": {
+        "zh": "持有技能：",
+        "en": "Skills Held:"
+    },
+    "存活时间：": {
+        "zh": "存活时间：",
+        "en": "Survival Time:"
+    },
+    "获得金币：": {
+        "zh": "获得金币：",
+        "en": "Gain Gold:"
+    },
+    "角色等级：": {
+        "zh": "角色等级：",
+        "en": "Role Grade:"
+    },
+    "击败敌人：": {
+        "zh": "击败敌人：",
+        "en": "Defeat an enemy:"
+    },
+    "立即结束游戏": {
+        "zh": "立即结束游戏",
+        "en": "End the game immediately"
+    },
+    "获得金币": {
+        "zh": "获得金币",
+        "en": "Get gold COINS"
+    },
+    "消耗金币": {
+        "zh": "消耗金币",
+        "en": "Consumption of gold"
+    },
+    "已领取": {
+        "zh": "已领取",
+        "en": "received"
+    },
+    "等级：": {
+        "zh": "等级：",
+        "en": "lv."
+    },
+    "金币": {
+        "zh": "金币",
+        "en": " coin"
+    }
+}

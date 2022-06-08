@@ -1,0 +1,152 @@
+{
+  "610001": {
+    "id": 610001,
+    "skill_name": "Might",
+    "skill_maxlevel": 5,
+    "skill_cost": "200,500,800,1500,3000",
+    "skill_effect": "101,101,101,101,101",
+    "skill_value": "0.05,0.1,0.15,0.2,0.25",
+    "skill_detail": "Damage per level + 5 %",
+    "skill_icon": 100010
+  },
+  "610002": {
+    "id": 610002,
+    "skill_name": "armor",
+    "skill_maxlevel": 3,
+    "skill_cost": "800,1500,3000",
+    "skill_effect": "151,151,151",
+    "skill_value": "1,2,3",
+    "skill_detail": "Damage per level - 1",
+    "skill_icon": 100029
+  },
+  "610003": {
+    "id": 610003,
+    "skill_name": "Resilience",
+    "skill_maxlevel": 5,
+    "skill_cost": "200,500,800,1500,3000",
+    "skill_effect": "162,162,162,162,162",
+    "skill_value": "0.1,0.2,0.3,0.4,0.5",
+    "skill_detail": "Max HP per level +10%",
+    "skill_icon": 100025
+  },
+  "610004": {
+    "id": 610004,
+    "skill_name": "restore",
+    "skill_maxlevel": 5,
+    "skill_cost": "200,500,800,1500,3000",
+    "skill_effect": "152,152,152,152,152",
+    "skill_value": "0.01,0.02,0.03,0.04,0.05",
+    "skill_detail": "HP per second per level+ 0.1",
+    "skill_icon": 100028
+  },
+  "610005": {
+    "id": 610005,
+    "skill_name": "Cooldown",
+    "skill_maxlevel": 2,
+    "skill_cost": "1000,2000",
+    "skill_effect": "102,102",
+    "skill_value": "0.025,0.05",
+    "skill_detail": "Weapon use speed increased by 2.5% per level",
+    "skill_icon": 100006
+  },
+  "610006": {
+    "id": 610006,
+    "skill_name": "Area",
+    "skill_maxlevel": 3,
+    "skill_cost": "800,1500,3000",
+    "skill_effect": "103,103,103",
+    "skill_value": "0.05,0.1,0.15",
+    "skill_detail": "Attack range increased by 5 % per level",
+    "skill_icon": 100032
+  },
+  "610007": {
+    "id": 610007,
+    "skill_name": "Velocity",
+    "skill_maxlevel": 2,
+    "skill_cost": "1000,2000",
+    "skill_effect": "104,104",
+    "skill_value": "0.1,0.2",
+    "skill_detail": "Projectile movement speed increased by 10% per level",
+    "skill_icon": 100021
+  },
+  "610008": {
+    "id": 610008,
+    "skill_name": "Duration",
+    "skill_maxlevel": 2,
+    "skill_cost": "1000,2000",
+    "skill_effect": "105,105",
+    "skill_value": "0.15,0.3",
+    "skill_detail": "Weapon duration increases by 15% per level",
+    "skill_icon": 100045
+  },
+  "610009": {
+    "id": 610009,
+    "skill_name": "Shadow copy",
+    "skill_maxlevel": 1,
+    "skill_cost": 8000,
+    "skill_effect": 106,
+    "skill_value": 1,
+    "skill_detail": "Multiple 1 projectiles (all weapons)",
+    "skill_icon": 100024
+  },
+  "610010": {
+    "id": 610010,
+    "skill_name": "Speed",
+    "skill_maxlevel": 2,
+    "skill_cost": "1500,3000",
+    "skill_effect": "153,153",
+    "skill_value": "0.05,0.1",
+    "skill_detail": "Character movement speed increased by 5% per level",
+    "skill_icon": 100036
+  },
+  "610011": {
+    "id": 610011,
+    "skill_name": "Magnet",
+    "skill_maxlevel": 5,
+    "skill_cost": "500,1000,1500,2000,4000",
+    "skill_effect": "154,154,154,154,154",
+    "skill_value": "0.1,0.2,0.3,0.4,0.5",
+    "skill_detail": "Item pickup range per level +10%",
+    "skill_icon": 100048
+  },
+  "610012": {
+    "id": 610012,
+    "skill_name": "Luck",
+    "skill_maxlevel": 5,
+    "skill_cost": "500,1000,1500,2000,4000",
+    "skill_effect": "155,155,155,155,155",
+    "skill_value": "0.05,0.1,0.15,0.2,0.25",
+    "skill_detail": "Has chance per level Luck  + 5 %",
+    "skill_icon": 100031
+  },
+  "610013": {
+    "id": 610013,
+    "skill_name": "Growth",
+    "skill_maxlevel": 5,
+    "skill_cost": "500,1000,1500,2000,4000",
+    "skill_effect": "157,157,157,157,157",
+    "skill_value": "0.03,0.06,0.09,0.12,0.15",
+    "skill_detail": "EXP per level +3%",
+    "skill_icon": 100028
+  },
+  "610014": {
+    "id": 610014,
+    "skill_name": "medal",
+    "skill_maxlevel": 5,
+    "skill_cost": "500,1000,1500,2000,4000",
+    "skill_effect": "159,159,159,159,159",
+    "skill_value": "0.1,0.2,0.3,0.4,0.5",
+    "skill_detail": "Gain 10% more gold per level",
+    "skill_icon": 100037
+  },
+  "610015": {
+    "id": 610015,
+    "skill_name": "resurrection",
+    "skill_maxlevel": 1,
+    "skill_cost": 5000,
+    "skill_effect": 160,
+    "skill_value": 1,
+    "skill_detail": "Revive 1 times for 50% health",
+    "skill_icon": 100044
+  }
+}

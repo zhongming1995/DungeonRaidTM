@@ -1,0 +1,64 @@
+{
+  "group-list": [
+    "default",
+    "ui"
+  ],
+  "collision-matrix": [
+    [
+      true
+    ],
+    [
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false
+    ]
+  ],
+  "excluded-modules": [
+    "Collider",
+    "MotionStreak",
+    "Native Socket",
+    "Physics",
+    "PageView",
+    "PageViewIndicator",
+    "Slider",
+    "ScrollBar",
+    "TiledMap",
+    "VideoPlayer",
+    "WebView",
+    "3D",
+    "3D Primitive",
+    "3D Physics/cannon.js",
+    "3D Physics/Builtin",
+    "3D Particle",
+    "SafeArea"
+  ],
+  "preview-port": 7456,
+  "design-resolution-width": 1334,
+  "design-resolution-height": 750,
+  "fit-width": false,
+  "fit-height": true,
+  "use-project-simulator-setting": false,
+  "simulator-orientation": false,
+  "use-customize-simulator": true,
+  "simulator-resolution": {
+    "width": 960,
+    "height": 640
+  },
+  "clear-simulator-cache": true,
+  "facebook": {
+    "enable": false,
+    "appID": "",
+    "live": {
+      "enable": false
+    },
+    "audience": {
+      "enable": false
+    }
+  },
+  "start-scene": "53794f78-00b8-45b1-99b8-173fd80db273",
+  "last-module-event-record-time": 1654503128909
+}

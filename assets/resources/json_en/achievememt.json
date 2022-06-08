@@ -1,0 +1,152 @@
+{
+  "620001": {
+    "id": 620001,
+    "icon": 100010,
+    "condition": 3,
+    "condition_num": 3,
+    "unlockitem_id": -1,
+    "reward_detail": "100金币",
+    "gold_num": 100,
+    "achievement_name": "Reach Lv 3 in Super model"
+  },
+  "620002": {
+    "id": 620002,
+    "icon": 100031,
+    "condition": 3,
+    "condition_num": 5,
+    "unlockitem_id": 100023,
+    "reward_detail": "100金币",
+    "gold_num": 100,
+    "achievement_name": "Reach Lv 5 in Super model"
+  },
+  "620003": {
+    "id": 620003,
+    "icon": 100024,
+    "condition": 3,
+    "condition_num": 10,
+    "unlockitem_id": 100024,
+    "reward_detail": "200金币",
+    "gold_num": 200,
+    "achievement_name": "Reach Lv 10 in Super model"
+  },
+  "620004": {
+    "id": 620004,
+    "icon": 100038,
+    "condition": 3,
+    "condition_num": 20,
+    "unlockitem_id": 100039,
+    "reward_detail": "300金币",
+    "gold_num": 300,
+    "achievement_name": "Reach Lv 20 in Super model"
+  },
+  "620005": {
+    "id": 620005,
+    "icon": 100038,
+    "condition": 3,
+    "condition_num": 30,
+    "unlockitem_id": 100039,
+    "reward_detail": "500金币",
+    "gold_num": 500,
+    "achievement_name": "Reach Lv 30 in Super model"
+  },
+  "620006": {
+    "id": 620006,
+    "icon": 100014,
+    "condition": 2,
+    "condition_num": 3,
+    "unlockitem_id": -1,
+    "reward_detail": "100金币",
+    "gold_num": 100,
+    "achievement_name": "Survive 3 minutes with any character in Super model"
+  },
+  "620007": {
+    "id": 620007,
+    "icon": 100027,
+    "condition": 2,
+    "condition_num": 5,
+    "unlockitem_id": 100027,
+    "reward_detail": "100金币",
+    "gold_num": 100,
+    "achievement_name": "Survive 5 minutes with any character in Super model"
+  },
+  "620008": {
+    "id": 620008,
+    "icon": 100028,
+    "condition": 2,
+    "condition_num": 8,
+    "unlockitem_id": 100028,
+    "reward_detail": "100金币",
+    "gold_num": 100,
+    "achievement_name": "Survive 8 minutes with any character in Super model"
+  },
+  "620009": {
+    "id": 620009,
+    "icon": 100038,
+    "condition": 2,
+    "condition_num": 10,
+    "unlockitem_id": 100039,
+    "reward_detail": "100金币",
+    "gold_num": 100,
+    "achievement_name": "Survive 10 minutes with any character in Super model"
+  },
+  "620010": {
+    "id": 620010,
+    "icon": 100038,
+    "condition": 2,
+    "condition_num": 12,
+    "unlockitem_id": 100039,
+    "reward_detail": "200金币",
+    "gold_num": 200,
+    "achievement_name": "Survive 12 minutes with any character in Super model"
+  },
+  "620011": {
+    "id": 620011,
+    "icon": 100038,
+    "condition": 2,
+    "condition_num": 15,
+    "unlockitem_id": 100039,
+    "reward_detail": "300金币",
+    "gold_num": 300,
+    "achievement_name": "Survive 15 minutes with any character in Super model"
+  },
+  "620012": {
+    "id": 620012,
+    "icon": 100038,
+    "condition": 2,
+    "condition_num": 20,
+    "unlockitem_id": 100039,
+    "reward_detail": "500金币",
+    "gold_num": 500,
+    "achievement_name": "Survive 20 minutes with any character in Super model"
+  },
+  "620013": {
+    "id": 620013,
+    "icon": 100019,
+    "condition": 1,
+    "condition_num": 2000,
+    "unlockitem_id": -1,
+    "reward_detail": "100金币",
+    "gold_num": 100,
+    "achievement_name": "Kill 2000 enemies in Super model"
+  },
+  "620014": {
+    "id": 620014,
+    "icon": 100038,
+    "condition": 1,
+    "condition_num": 5000,
+    "unlockitem_id": 100039,
+    "reward_detail": "200金币",
+    "gold_num": 200,
+    "achievement_name": "Kill 5000 enemies in Super model"
+  },
+  "620015": {
+    "id": 620015,
+    "icon": 100038,
+    "condition": 1,
+    "condition_num": 20000,
+    "unlockitem_id": 100039,
+    "reward_detail": "500金币",
+    "gold_num": 500,
+    "achievement_name": "Kill 20000 enemies in Super model"
+  }
+}

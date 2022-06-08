@@ -1,0 +1,90 @@
+
+SH.png
+size: 340,110
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+sishen/diyuhuo
+  rotate: false
+  xy: 303, 72
+  size: 28, 36
+  orig: 28, 36
+  offset: 0, 0
+  index: -1
+sishen/liandao
+  rotate: true
+  xy: 2, 2
+  size: 106, 119
+  orig: 106, 119
+  offset: 0, 0
+  index: -1
+sishen/piaodai
+  rotate: true
+  xy: 257, 15
+  size: 33, 55
+  orig: 33, 55
+  offset: 0, 0
+  index: -1
+sishen/shenzi
+  rotate: true
+  xy: 123, 16
+  size: 92, 90
+  orig: 92, 90
+  offset: 0, 0
+  index: -1
+sishen/shouji
+  rotate: false
+  xy: 215, 50
+  size: 47, 58
+  orig: 47, 58
+  offset: 0, 0
+  index: -1
+sishen/touying
+  rotate: false
+  xy: 123, 10
+  size: 123, 4
+  orig: 124, 4
+  offset: 1, 0
+  index: -1
+sishen/youbi
+  rotate: false
+  xy: 314, 24
+  size: 24, 27
+  orig: 24, 27
+  offset: 0, 0
+  index: -1
+sishen/youshou
+  rotate: false
+  xy: 264, 68
+  size: 37, 40
+  orig: 37, 40
+  offset: 0, 0
+  index: -1
+sishen/youzhua
+  rotate: true
+  xy: 292, 51
+  size: 15, 14
+  orig: 15, 14
+  offset: 0, 0
+  index: -1
+sishen/zuobi
+  rotate: true
+  xy: 264, 50
+  size: 16, 26
+  orig: 16, 26
+  offset: 0, 0
+  index: -1
+sishen/zuoshou
+  rotate: false
+  xy: 215, 17
+  size: 40, 31
+  orig: 40, 31
+  offset: 0, 0
+  index: -1
+sishen/zuozhua
+  rotate: false
+  xy: 308, 53
+  size: 22, 17
+  orig: 22, 17
+  offset: 0, 0
+  index: -1

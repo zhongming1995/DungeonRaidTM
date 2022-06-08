@@ -1,0 +1,69 @@
+{
+    "PRODUCT_START": {
+        "event": {
+            "event_start_video": {
+                "switch": "zs_start_video_switch"
+            }
+        }
+    },
+    "PRODUCT_BEGIN": {
+        "switch": "!"
+    },
+    "GAME_HOME": {},
+    "PRODUCT_HOME_PLAY": {
+        "check": {
+            "event_check_egg": false
+        },
+        "base": {
+            "type": "knock_video_egg",
+            "window": {
+                "align": "topleft",
+                "fit": true,
+                "block": true
+            },
+            "base": {
+                "awardevent": null,
+                "btnignoreoffset": true
+            }
+        }
+    },
+    "GAME_PLAY": {
+        "event": "event_game_play"
+    },
+    "GAME_PLAY.PLAY": {
+        "event": "event_game_play",
+        "banner": {
+            "switch": "zs_game_banner_show_switch",
+            "checkInit": false
+        },
+        "exitevent": "event_record_pause"
+    },
+    "GAME_PLAY.REVIVE": {
+        "event": "event_record_pause"
+    },
+    "GAME_PLAY.PAUSE": {},
+    "GAME_PLAY.SETTLE": {
+        "event": {
+            "event": "event_record_pause"
+        }
+    },
+    "PRODUCT_PLAY_END": {
+        "switch":"!",
+        "base": [
+            {
+                "type": "share_record",
+                "window": {
+                    "align": "center",
+                    "fit": true,
+                    "block": true
+                },
+                "base": {
+                    "event": "event_share_record_reward"
+                }
+            }
+        ]
+    },
+    "PRODUCT_FINISH": {
+        "switch": "!"
+    }
+}

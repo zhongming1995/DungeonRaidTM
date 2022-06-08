@@ -1,0 +1,1732 @@
+{
+  "101": {
+    "id": 101,
+    "attribute_type": "Attack",
+    "attribute_param": "atk_all",
+    "attribute_weapon": -1,
+    "value_type": 1,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": "直接影响对怪物造成的伤害"
+  },
+  "102": {
+    "id": 102,
+    "attribute_type": "Cooling",
+    "attribute_param": "cd_all",
+    "attribute_weapon": -1,
+    "value_type": 2,
+    "attribute_show": 5,
+    "icon_show": 100033,
+    "_note2": "影响攻击间隔。例如：两次圣水之间的基础攻击间隔为2s，如果此时冷却为30%，则现在的攻击间隔为  2*（1-30%） 秒"
+  },
+  "103": {
+    "id": 103,
+    "attribute_type": "Attack range",
+    "attribute_param": "atkrange_all",
+    "attribute_weapon": -1,
+    "value_type": 2,
+    "attribute_show": 6,
+    "icon_show": 100032,
+    "_note2": "影响武器的攻击范围，攻击范围越大，武器实际的作用范围越大（在各种武器的基础攻击范围是进行百分比增减）。例如：伏魔圈基础范围为2格，当攻击范围为50%时，现在伏魔圈范围为 2*(1+50%)格"
+  },
+  "104": {
+    "id": 104,
+    "attribute_type": "Velocity",
+    "attribute_param": "atkfly_all",
+    "attribute_weapon": -1,
+    "value_type": 2,
+    "attribute_show": 7,
+    "icon_show": 100026,
+    "_note2": "影响每次攻击效果飞行的快慢，数值越大，攻击速度越快（在各种武器的基础攻击速度上进行百分比增减）。例如：魔法杖的子弹飞行速度为1s飞行5格，当此属性为30%时，此时 每秒飞行  5*（1+30%) 格"
+  },
+  "105": {
+    "id": 105,
+    "attribute_type": "Duration",
+    "attribute_param": "duration_all",
+    "attribute_weapon": -1,
+    "value_type": 2,
+    "attribute_show": 8,
+    "icon_show": 100035,
+    "_note2": "影响每次攻击持续的时间。（书的持续时间，圣水的持续时间）。如果圣水在地上基础持续的时间为5s，持续时间属性为30%时，现在持续时间为5*(1+30%) 秒"
+  },
+  "106": {
+    "id": 106,
+    "attribute_type": "Attack section number",
+    "attribute_param": "attmulti_all",
+    "attribute_weapon": -1,
+    "value_type": 1,
+    "attribute_show": 9,
+    "icon_show": 100024,
+    "_note2": "影响每次武器进行攻击的次数。例如：魔法弹基础发射2枚子弹，如果魔法弹的每段攻击为发射1枚子弹，此时攻击段数为3.则现在每次魔法弹发射2+1*（3） 枚子弹。此数量最大不超高该类型物品的最高攻击段数，超过之后按最大攻击段数计算"
+  },
+  "107": {
+    "id": 107,
+    "attribute_type": "Wound deeper",
+    "attribute_param": "damageup_all",
+    "attribute_weapon": -1,
+    "value_type": 2,
+    "attribute_show": 1,
+    "icon_show": 100034,
+    "_note2": "造成伤害时，额外增加的百分比"
+  },
+  "108": {
+    "id": 108,
+    "attribute_type": "Damage reduction",
+    "attribute_param": "damagedown_all",
+    "attribute_weapon": -1,
+    "value_type": 2,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": "受到伤害时，额外减少的百分比"
+  },
+  "109": {
+    "id": 109,
+    "attribute_type": "Weapon damage",
+    "attribute_param": "weaponrate_all",
+    "attribute_weapon": -1,
+    "value_type": 2,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": "不同武器在造成伤害时的平衡系数"
+  },
+  "110": {
+    "id": 110,
+    "attribute_type": "击杀吸血",
+    "attribute_param": "killhpr_all",
+    "attribute_weapon": -1,
+    "value_type": 1,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": "击杀怪物后的回血的血量"
+  },
+  "150": {
+    "id": 150,
+    "attribute_type": "HP",
+    "attribute_param": "hp_all",
+    "attribute_weapon": -1,
+    "value_type": 1,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": "每次受到伤害会减少该值，该值<=0时角色死亡"
+  },
+  "151": {
+    "id": 151,
+    "attribute_type": "Armor",
+    "attribute_param": "armor_all",
+    "attribute_weapon": -1,
+    "value_type": 1,
+    "attribute_show": 2,
+    "icon_show": 100029,
+    "_note2": "攻击的对抗属性，可减少受到的伤害"
+  },
+  "152": {
+    "id": 152,
+    "attribute_type": "Restore",
+    "attribute_param": "recover_all",
+    "attribute_weapon": -1,
+    "value_type": 3,
+    "attribute_show": 4,
+    "icon_show": 100025,
+    "_note2": "每秒自动恢复血量的数值"
+  },
+  "153": {
+    "id": 153,
+    "attribute_type": "Move speed",
+    "attribute_param": "speed_all",
+    "attribute_weapon": -1,
+    "value_type": 2,
+    "attribute_show": 10,
+    "icon_show": 100036,
+    "_note2": "角色移动的快慢。例如：基础移动速度为1秒移动5格，移速加成为50%，则现在一秒移动5*（1+50%）格"
+  },
+  "154": {
+    "id": 154,
+    "attribute_type": "Pick range",
+    "attribute_param": "pickrange_all",
+    "attribute_weapon": -1,
+    "value_type": 2,
+    "attribute_show": 11,
+    "icon_show": 100030,
+    "_note2": "自动拾取道具的范围。例如：基础主角可以拾取自己2格范围的物品，拾取范围为30%时，现在能拾取 2*（1+30%） 格内的物品"
+  },
+  "155": {
+    "id": 155,
+    "attribute_type": "Luck",
+    "attribute_param": "luck_all",
+    "attribute_weapon": -1,
+    "value_type": 2,
+    "attribute_show": 12,
+    "icon_show": 100031,
+    "_note2": "与技能和道具的掉落库相关。部分判定与幸运值相关"
+  },
+  "156": {
+    "id": 156,
+    "attribute_type": "EXP",
+    "attribute_param": "exp_all",
+    "attribute_weapon": -1,
+    "value_type": 1,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": "当前等级的经验值满之后，则自动升级到下一级"
+  },
+  "157": {
+    "id": 157,
+    "attribute_type": "Exp in add",
+    "attribute_param": "exprate_all",
+    "attribute_weapon": -1,
+    "value_type": 2,
+    "attribute_show": 13,
+    "icon_show": 100040,
+    "_note2": "获取经验值时额外增加的比例"
+  },
+  "158": {
+    "id": 158,
+    "attribute_type": "Gold",
+    "attribute_param": "gold_all",
+    "attribute_weapon": -1,
+    "value_type": 1,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": "主角的金币值，游戏中获得的金币会在游戏结束后加在总金币上"
+  },
+  "159": {
+    "id": 159,
+    "attribute_type": "Gold in add",
+    "attribute_param": "goldrate_all",
+    "attribute_weapon": -1,
+    "value_type": 2,
+    "attribute_show": 14,
+    "icon_show": 100037,
+    "_note2": "获取金币时额外增加的比例"
+  },
+  "160": {
+    "id": 160,
+    "attribute_type": "Revive num",
+    "attribute_param": "relive_all",
+    "attribute_weapon": -1,
+    "value_type": 1,
+    "attribute_show": 15,
+    "icon_show": 100053,
+    "_note2": "本局游戏总共可复活的次数"
+  },
+  "161": {
+    "id": 161,
+    "attribute_type": "Revive HP",
+    "attribute_param": "reliveblood_all",
+    "attribute_weapon": -1,
+    "value_type": 2,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": "每次复活之后的血量百分比"
+  },
+  "162": {
+    "id": 162,
+    "attribute_type": "HP bonus",
+    "attribute_param": "hpextra_all",
+    "attribute_weapon": -1,
+    "value_type": 2,
+    "attribute_show": 3,
+    "icon_show": 100027,
+    "_note2": "总血量=hp*(1+hpextra)"
+  },
+  "201": {
+    "id": 201,
+    "attribute_type": "攻击_鞭子",
+    "attribute_param": "atk_all",
+    "attribute_weapon": 100001,
+    "value_type": 0,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": ""
+  },
+  "202": {
+    "id": 202,
+    "attribute_type": "冷却_鞭子",
+    "attribute_param": "cd_all",
+    "attribute_weapon": 100001,
+    "value_type": 0,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": ""
+  },
+  "203": {
+    "id": 203,
+    "attribute_type": "攻击范围_鞭子",
+    "attribute_param": "atkrange_all",
+    "attribute_weapon": 100001,
+    "value_type": 0,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": ""
+  },
+  "204": {
+    "id": 204,
+    "attribute_type": "攻速_鞭子",
+    "attribute_param": "atkfly_all",
+    "attribute_weapon": 100001,
+    "value_type": 0,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": ""
+  },
+  "205": {
+    "id": 205,
+    "attribute_type": "持续时间_鞭子",
+    "attribute_param": "duration_all",
+    "attribute_weapon": 100001,
+    "value_type": 0,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": ""
+  },
+  "206": {
+    "id": 206,
+    "attribute_type": "攻击段数_鞭子",
+    "attribute_param": "attmulti_all",
+    "attribute_weapon": 100001,
+    "value_type": 0,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": ""
+  },
+  "207": {
+    "id": 207,
+    "attribute_type": "伤害加深_鞭子",
+    "attribute_param": "damageup_all",
+    "attribute_weapon": 100001,
+    "value_type": 0,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": ""
+  },
+  "208": {
+    "id": 208,
+    "attribute_type": "伤害减免_鞭子",
+    "attribute_param": "damagedown_all",
+    "attribute_weapon": 100001,
+    "value_type": 0,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": ""
+  },
+  "209": {
+    "id": 209,
+    "attribute_type": "武器伤害比例_鞭子",
+    "attribute_param": "weaponrate_all",
+    "attribute_weapon": 100001,
+    "value_type": 0,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": ""
+  },
+  "210": {
+    "id": 210,
+    "attribute_type": "击杀吸血",
+    "attribute_param": "killhpr_all",
+    "attribute_weapon": 100001,
+    "value_type": 0,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": ""
+  },
+  "301": {
+    "id": 301,
+    "attribute_type": "攻击_魔法杖",
+    "attribute_param": "atk_all",
+    "attribute_weapon": 100003,
+    "value_type": 0,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": ""
+  },
+  "302": {
+    "id": 302,
+    "attribute_type": "冷却_魔法杖",
+    "attribute_param": "cd_all",
+    "attribute_weapon": 100003,
+    "value_type": 0,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": ""
+  },
+  "303": {
+    "id": 303,
+    "attribute_type": "攻击范围_魔法杖",
+    "attribute_param": "atkrange_all",
+    "attribute_weapon": 100003,
+    "value_type": 0,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": ""
+  },
+  "304": {
+    "id": 304,
+    "attribute_type": "攻速_魔法杖",
+    "attribute_param": "atkfly_all",
+    "attribute_weapon": 100003,
+    "value_type": 0,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": ""
+  },
+  "305": {
+    "id": 305,
+    "attribute_type": "持续时间_魔法杖",
+    "attribute_param": "duration_all",
+    "attribute_weapon": 100003,
+    "value_type": 0,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": ""
+  },
+  "306": {
+    "id": 306,
+    "attribute_type": "攻击段数_魔法杖",
+    "attribute_param": "attmulti_all",
+    "attribute_weapon": 100003,
+    "value_type": 0,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": ""
+  },
+  "307": {
+    "id": 307,
+    "attribute_type": "伤害加深_魔法杖",
+    "attribute_param": "damageup_all",
+    "attribute_weapon": 100003,
+    "value_type": 0,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": ""
+  },
+  "308": {
+    "id": 308,
+    "attribute_type": "伤害减免_魔法杖",
+    "attribute_param": "damagedown_all",
+    "attribute_weapon": 100003,
+    "value_type": 0,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": ""
+  },
+  "309": {
+    "id": 309,
+    "attribute_type": "武器伤害比例_魔法杖",
+    "attribute_param": "weaponrate_all",
+    "attribute_weapon": 100003,
+    "value_type": 0,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": ""
+  },
+  "310": {
+    "id": 310,
+    "attribute_type": "击杀吸血",
+    "attribute_param": "killhpr_all",
+    "attribute_weapon": 100003,
+    "value_type": 0,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": ""
+  },
+  "401": {
+    "id": 401,
+    "attribute_type": "攻击_小刀",
+    "attribute_param": "atk_all",
+    "attribute_weapon": 100005,
+    "value_type": 0,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": ""
+  },
+  "402": {
+    "id": 402,
+    "attribute_type": "冷却_小刀",
+    "attribute_param": "cd_all",
+    "attribute_weapon": 100005,
+    "value_type": 0,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": ""
+  },
+  "403": {
+    "id": 403,
+    "attribute_type": "攻击范围_小刀",
+    "attribute_param": "atkrange_all",
+    "attribute_weapon": 100005,
+    "value_type": 0,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": ""
+  },
+  "404": {
+    "id": 404,
+    "attribute_type": "攻速_小刀",
+    "attribute_param": "atkfly_all",
+    "attribute_weapon": 100005,
+    "value_type": 0,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": ""
+  },
+  "405": {
+    "id": 405,
+    "attribute_type": "持续时间_小刀",
+    "attribute_param": "duration_all",
+    "attribute_weapon": 100005,
+    "value_type": 0,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": ""
+  },
+  "406": {
+    "id": 406,
+    "attribute_type": "攻击段数_小刀",
+    "attribute_param": "attmulti_all",
+    "attribute_weapon": 100005,
+    "value_type": 0,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": ""
+  },
+  "407": {
+    "id": 407,
+    "attribute_type": "伤害加深_小刀",
+    "attribute_param": "damageup_all",
+    "attribute_weapon": 100005,
+    "value_type": 0,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": ""
+  },
+  "408": {
+    "id": 408,
+    "attribute_type": "伤害减免_小刀",
+    "attribute_param": "damagedown_all",
+    "attribute_weapon": 100005,
+    "value_type": 0,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": ""
+  },
+  "409": {
+    "id": 409,
+    "attribute_type": "武器伤害比例_小刀",
+    "attribute_param": "weaponrate_all",
+    "attribute_weapon": 100005,
+    "value_type": 0,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": ""
+  },
+  "410": {
+    "id": 410,
+    "attribute_type": "击杀吸血",
+    "attribute_param": "killhpr_all",
+    "attribute_weapon": 100005,
+    "value_type": 0,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": ""
+  },
+  "501": {
+    "id": 501,
+    "attribute_type": "攻击_铁锤",
+    "attribute_param": "atk_all",
+    "attribute_weapon": 100007,
+    "value_type": 0,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": ""
+  },
+  "502": {
+    "id": 502,
+    "attribute_type": "冷却_铁锤",
+    "attribute_param": "cd_all",
+    "attribute_weapon": 100007,
+    "value_type": 0,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": ""
+  },
+  "503": {
+    "id": 503,
+    "attribute_type": "攻击范围_铁锤",
+    "attribute_param": "atkrange_all",
+    "attribute_weapon": 100007,
+    "value_type": 0,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": ""
+  },
+  "504": {
+    "id": 504,
+    "attribute_type": "攻速_铁锤",
+    "attribute_param": "atkfly_all",
+    "attribute_weapon": 100007,
+    "value_type": 0,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": ""
+  },
+  "505": {
+    "id": 505,
+    "attribute_type": "持续时间_铁锤",
+    "attribute_param": "duration_all",
+    "attribute_weapon": 100007,
+    "value_type": 0,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": ""
+  },
+  "506": {
+    "id": 506,
+    "attribute_type": "攻击段数_铁锤",
+    "attribute_param": "attmulti_all",
+    "attribute_weapon": 100007,
+    "value_type": 0,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": ""
+  },
+  "507": {
+    "id": 507,
+    "attribute_type": "伤害加深_铁锤",
+    "attribute_param": "damageup_all",
+    "attribute_weapon": 100007,
+    "value_type": 0,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": ""
+  },
+  "508": {
+    "id": 508,
+    "attribute_type": "伤害减免_铁锤",
+    "attribute_param": "damagedown_all",
+    "attribute_weapon": 100007,
+    "value_type": 0,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": ""
+  },
+  "509": {
+    "id": 509,
+    "attribute_type": "武器伤害比例_铁锤",
+    "attribute_param": "weaponrate_all",
+    "attribute_weapon": 100007,
+    "value_type": 0,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": ""
+  },
+  "510": {
+    "id": 510,
+    "attribute_type": "击杀吸血",
+    "attribute_param": "killhpr_all",
+    "attribute_weapon": 100007,
+    "value_type": 0,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": ""
+  },
+  "601": {
+    "id": 601,
+    "attribute_type": "攻击_回旋镖",
+    "attribute_param": "atk_all",
+    "attribute_weapon": 100009,
+    "value_type": 0,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": ""
+  },
+  "602": {
+    "id": 602,
+    "attribute_type": "冷却_回旋镖",
+    "attribute_param": "cd_all",
+    "attribute_weapon": 100009,
+    "value_type": 0,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": ""
+  },
+  "603": {
+    "id": 603,
+    "attribute_type": "攻击范围_回旋镖",
+    "attribute_param": "atkrange_all",
+    "attribute_weapon": 100009,
+    "value_type": 0,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": ""
+  },
+  "604": {
+    "id": 604,
+    "attribute_type": "攻速_回旋镖",
+    "attribute_param": "atkfly_all",
+    "attribute_weapon": 100009,
+    "value_type": 0,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": ""
+  },
+  "605": {
+    "id": 605,
+    "attribute_type": "持续时间_回旋镖",
+    "attribute_param": "duration_all",
+    "attribute_weapon": 100009,
+    "value_type": 0,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": ""
+  },
+  "606": {
+    "id": 606,
+    "attribute_type": "攻击段数_回旋镖",
+    "attribute_param": "attmulti_all",
+    "attribute_weapon": 100009,
+    "value_type": 0,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": ""
+  },
+  "607": {
+    "id": 607,
+    "attribute_type": "伤害加深_回旋镖",
+    "attribute_param": "damageup_all",
+    "attribute_weapon": 100009,
+    "value_type": 0,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": ""
+  },
+  "608": {
+    "id": 608,
+    "attribute_type": "伤害减免_回旋镖",
+    "attribute_param": "damagedown_all",
+    "attribute_weapon": 100009,
+    "value_type": 0,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": ""
+  },
+  "609": {
+    "id": 609,
+    "attribute_type": "武器伤害比例_回旋镖",
+    "attribute_param": "weaponrate_all",
+    "attribute_weapon": 100009,
+    "value_type": 0,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": ""
+  },
+  "610": {
+    "id": 610,
+    "attribute_type": "击杀吸血",
+    "attribute_param": "killhpr_all",
+    "attribute_weapon": 100009,
+    "value_type": 0,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": ""
+  },
+  "701": {
+    "id": 701,
+    "attribute_type": "攻击_亡灵之书",
+    "attribute_param": "atk_all",
+    "attribute_weapon": 100011,
+    "value_type": 0,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": ""
+  },
+  "702": {
+    "id": 702,
+    "attribute_type": "冷却_亡灵之书",
+    "attribute_param": "cd_all",
+    "attribute_weapon": 100011,
+    "value_type": 0,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": ""
+  },
+  "703": {
+    "id": 703,
+    "attribute_type": "攻击范围_亡灵之书",
+    "attribute_param": "atkrange_all",
+    "attribute_weapon": 100011,
+    "value_type": 0,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": ""
+  },
+  "704": {
+    "id": 704,
+    "attribute_type": "攻速_亡灵之书",
+    "attribute_param": "atkfly_all",
+    "attribute_weapon": 100011,
+    "value_type": 0,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": ""
+  },
+  "705": {
+    "id": 705,
+    "attribute_type": "持续时间_亡灵之书",
+    "attribute_param": "duration_all",
+    "attribute_weapon": 100011,
+    "value_type": 0,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": ""
+  },
+  "706": {
+    "id": 706,
+    "attribute_type": "攻击段数_亡灵之书",
+    "attribute_param": "attmulti_all",
+    "attribute_weapon": 100011,
+    "value_type": 0,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": ""
+  },
+  "707": {
+    "id": 707,
+    "attribute_type": "伤害加深_亡灵之书",
+    "attribute_param": "damageup_all",
+    "attribute_weapon": 100011,
+    "value_type": 0,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": ""
+  },
+  "708": {
+    "id": 708,
+    "attribute_type": "伤害减免_亡灵之书",
+    "attribute_param": "damagedown_all",
+    "attribute_weapon": 100011,
+    "value_type": 0,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": ""
+  },
+  "709": {
+    "id": 709,
+    "attribute_type": "武器伤害比例_亡灵之书",
+    "attribute_param": "weaponrate_all",
+    "attribute_weapon": 100011,
+    "value_type": 0,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": ""
+  },
+  "710": {
+    "id": 710,
+    "attribute_type": "击杀吸血",
+    "attribute_param": "killhpr_all",
+    "attribute_weapon": 100011,
+    "value_type": 0,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": ""
+  },
+  "801": {
+    "id": 801,
+    "attribute_type": "攻击_火球",
+    "attribute_param": "atk_all",
+    "attribute_weapon": 100013,
+    "value_type": 0,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": ""
+  },
+  "802": {
+    "id": 802,
+    "attribute_type": "冷却_火球",
+    "attribute_param": "cd_all",
+    "attribute_weapon": 100013,
+    "value_type": 0,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": ""
+  },
+  "803": {
+    "id": 803,
+    "attribute_type": "攻击范围_火球",
+    "attribute_param": "atkrange_all",
+    "attribute_weapon": 100013,
+    "value_type": 0,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": ""
+  },
+  "804": {
+    "id": 804,
+    "attribute_type": "攻速_火球",
+    "attribute_param": "atkfly_all",
+    "attribute_weapon": 100013,
+    "value_type": 0,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": ""
+  },
+  "805": {
+    "id": 805,
+    "attribute_type": "持续时间_火球",
+    "attribute_param": "duration_all",
+    "attribute_weapon": 100013,
+    "value_type": 0,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": ""
+  },
+  "806": {
+    "id": 806,
+    "attribute_type": "攻击段数_火球",
+    "attribute_param": "attmulti_all",
+    "attribute_weapon": 100013,
+    "value_type": 0,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": ""
+  },
+  "807": {
+    "id": 807,
+    "attribute_type": "伤害加深_火球",
+    "attribute_param": "damageup_all",
+    "attribute_weapon": 100013,
+    "value_type": 0,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": ""
+  },
+  "808": {
+    "id": 808,
+    "attribute_type": "伤害减免_火球",
+    "attribute_param": "damagedown_all",
+    "attribute_weapon": 100013,
+    "value_type": 0,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": ""
+  },
+  "809": {
+    "id": 809,
+    "attribute_type": "武器伤害比例_火球",
+    "attribute_param": "weaponrate_all",
+    "attribute_weapon": 100013,
+    "value_type": 0,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": ""
+  },
+  "810": {
+    "id": 810,
+    "attribute_type": "击杀吸血_火球",
+    "attribute_param": "killhpr_all",
+    "attribute_weapon": 100013,
+    "value_type": 0,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": ""
+  },
+  "901": {
+    "id": 901,
+    "attribute_type": "攻击_大蒜阵",
+    "attribute_param": "atk_all",
+    "attribute_weapon": 100015,
+    "value_type": 0,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": ""
+  },
+  "902": {
+    "id": 902,
+    "attribute_type": "冷却_大蒜阵",
+    "attribute_param": "cd_all",
+    "attribute_weapon": 100015,
+    "value_type": 0,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": ""
+  },
+  "903": {
+    "id": 903,
+    "attribute_type": "攻击范围_大蒜阵",
+    "attribute_param": "atkrange_all",
+    "attribute_weapon": 100015,
+    "value_type": 0,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": ""
+  },
+  "904": {
+    "id": 904,
+    "attribute_type": "攻速_大蒜阵",
+    "attribute_param": "atkfly_all",
+    "attribute_weapon": 100015,
+    "value_type": 0,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": ""
+  },
+  "905": {
+    "id": 905,
+    "attribute_type": "持续时间_大蒜阵",
+    "attribute_param": "duration_all",
+    "attribute_weapon": 100015,
+    "value_type": 0,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": ""
+  },
+  "906": {
+    "id": 906,
+    "attribute_type": "攻击段数_大蒜阵",
+    "attribute_param": "attmulti_all",
+    "attribute_weapon": 100015,
+    "value_type": 0,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": ""
+  },
+  "907": {
+    "id": 907,
+    "attribute_type": "伤害加深_大蒜阵",
+    "attribute_param": "damageup_all",
+    "attribute_weapon": 100015,
+    "value_type": 0,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": ""
+  },
+  "908": {
+    "id": 908,
+    "attribute_type": "伤害减免_大蒜阵",
+    "attribute_param": "damagedown_all",
+    "attribute_weapon": 100015,
+    "value_type": 0,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": ""
+  },
+  "909": {
+    "id": 909,
+    "attribute_type": "武器伤害比例_大蒜阵",
+    "attribute_param": "weaponrate_all",
+    "attribute_weapon": 100015,
+    "value_type": 0,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": ""
+  },
+  "910": {
+    "id": 910,
+    "attribute_type": "击杀吸血",
+    "attribute_param": "killhpr_all",
+    "attribute_weapon": 100015,
+    "value_type": 0,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": ""
+  },
+  "1101": {
+    "id": 1101,
+    "attribute_type": "攻击_腐蚀药水",
+    "attribute_param": "atk_all",
+    "attribute_weapon": 100017,
+    "value_type": 0,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": ""
+  },
+  "1102": {
+    "id": 1102,
+    "attribute_type": "冷却_腐蚀药水",
+    "attribute_param": "cd_all",
+    "attribute_weapon": 100017,
+    "value_type": 0,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": ""
+  },
+  "1103": {
+    "id": 1103,
+    "attribute_type": "攻击范围_腐蚀药水",
+    "attribute_param": "atkrange_all",
+    "attribute_weapon": 100017,
+    "value_type": 0,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": ""
+  },
+  "1104": {
+    "id": 1104,
+    "attribute_type": "攻速_腐蚀药水",
+    "attribute_param": "atkfly_all",
+    "attribute_weapon": 100017,
+    "value_type": 0,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": ""
+  },
+  "1105": {
+    "id": 1105,
+    "attribute_type": "持续时间_腐蚀药水",
+    "attribute_param": "duration_all",
+    "attribute_weapon": 100017,
+    "value_type": 0,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": ""
+  },
+  "1106": {
+    "id": 1106,
+    "attribute_type": "攻击段数_腐蚀药水",
+    "attribute_param": "attmulti_all",
+    "attribute_weapon": 100017,
+    "value_type": 0,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": ""
+  },
+  "1107": {
+    "id": 1107,
+    "attribute_type": "伤害加深_腐蚀药水",
+    "attribute_param": "damageup_all",
+    "attribute_weapon": 100017,
+    "value_type": 0,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": ""
+  },
+  "1108": {
+    "id": 1108,
+    "attribute_type": "伤害减免_腐蚀药水",
+    "attribute_param": "damagedown_all",
+    "attribute_weapon": 100017,
+    "value_type": 0,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": ""
+  },
+  "1109": {
+    "id": 1109,
+    "attribute_type": "武器伤害比例_腐蚀药水",
+    "attribute_param": "weaponrate_all",
+    "attribute_weapon": 100017,
+    "value_type": 0,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": ""
+  },
+  "1110": {
+    "id": 1110,
+    "attribute_type": "击杀吸血",
+    "attribute_param": "killhpr_all",
+    "attribute_weapon": 100017,
+    "value_type": 0,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": ""
+  },
+  "1201": {
+    "id": 1201,
+    "attribute_type": "攻击_雷电戒指",
+    "attribute_param": "atk_all",
+    "attribute_weapon": 100019,
+    "value_type": 0,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": ""
+  },
+  "1202": {
+    "id": 1202,
+    "attribute_type": "冷却_雷电戒指",
+    "attribute_param": "cd_all",
+    "attribute_weapon": 100019,
+    "value_type": 0,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": ""
+  },
+  "1203": {
+    "id": 1203,
+    "attribute_type": "攻击范围_雷电戒指",
+    "attribute_param": "atkrange_all",
+    "attribute_weapon": 100019,
+    "value_type": 0,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": ""
+  },
+  "1204": {
+    "id": 1204,
+    "attribute_type": "攻速_雷电戒指",
+    "attribute_param": "atkfly_all",
+    "attribute_weapon": 100019,
+    "value_type": 0,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": ""
+  },
+  "1205": {
+    "id": 1205,
+    "attribute_type": "持续时间_雷电戒指",
+    "attribute_param": "duration_all",
+    "attribute_weapon": 100019,
+    "value_type": 0,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": ""
+  },
+  "1206": {
+    "id": 1206,
+    "attribute_type": "攻击段数_雷电戒指",
+    "attribute_param": "attmulti_all",
+    "attribute_weapon": 100019,
+    "value_type": 0,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": ""
+  },
+  "1207": {
+    "id": 1207,
+    "attribute_type": "伤害加深_雷电戒指",
+    "attribute_param": "damageup_all",
+    "attribute_weapon": 100019,
+    "value_type": 0,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": ""
+  },
+  "1208": {
+    "id": 1208,
+    "attribute_type": "伤害减免_雷电戒指",
+    "attribute_param": "damagedown_all",
+    "attribute_weapon": 100019,
+    "value_type": 0,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": ""
+  },
+  "1209": {
+    "id": 1209,
+    "attribute_type": "武器伤害比例_雷电戒指",
+    "attribute_param": "weaponrate_all",
+    "attribute_weapon": 100019,
+    "value_type": 0,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": ""
+  },
+  "1210": {
+    "id": 1210,
+    "attribute_type": "击杀吸血",
+    "attribute_param": "killhpr_all",
+    "attribute_weapon": 100019,
+    "value_type": 0,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": ""
+  },
+  "1301": {
+    "id": 1301,
+    "attribute_type": "攻击_追踪器",
+    "attribute_param": "atk_all",
+    "attribute_weapon": 100020,
+    "value_type": 0,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": ""
+  },
+  "1302": {
+    "id": 1302,
+    "attribute_type": "冷却_追踪器",
+    "attribute_param": "cd_all",
+    "attribute_weapon": 100020,
+    "value_type": 0,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": ""
+  },
+  "1303": {
+    "id": 1303,
+    "attribute_type": "攻击范围_追踪器",
+    "attribute_param": "atkrange_all",
+    "attribute_weapon": 100020,
+    "value_type": 0,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": ""
+  },
+  "1304": {
+    "id": 1304,
+    "attribute_type": "攻速_追踪器",
+    "attribute_param": "atkfly_all",
+    "attribute_weapon": 100020,
+    "value_type": 0,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": ""
+  },
+  "1305": {
+    "id": 1305,
+    "attribute_type": "持续时间_追踪器",
+    "attribute_param": "duration_all",
+    "attribute_weapon": 100020,
+    "value_type": 0,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": ""
+  },
+  "1306": {
+    "id": 1306,
+    "attribute_type": "攻击段数_追踪器",
+    "attribute_param": "attmulti_all",
+    "attribute_weapon": 100020,
+    "value_type": 0,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": ""
+  },
+  "1307": {
+    "id": 1307,
+    "attribute_type": "伤害加深_追踪器",
+    "attribute_param": "damageup_all",
+    "attribute_weapon": 100020,
+    "value_type": 0,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": ""
+  },
+  "1308": {
+    "id": 1308,
+    "attribute_type": "伤害减免_追踪器",
+    "attribute_param": "damagedown_all",
+    "attribute_weapon": 100020,
+    "value_type": 0,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": ""
+  },
+  "1309": {
+    "id": 1309,
+    "attribute_type": "武器伤害比例_追踪器",
+    "attribute_param": "weaponrate_all",
+    "attribute_weapon": 100020,
+    "value_type": 0,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": ""
+  },
+  "1310": {
+    "id": 1310,
+    "attribute_type": "击杀吸血",
+    "attribute_param": "killhpr_all",
+    "attribute_weapon": 100020,
+    "value_type": 0,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": ""
+  },
+  "1401": {
+    "id": 1401,
+    "attribute_type": "攻击_五芒星",
+    "attribute_param": "atk_all",
+    "attribute_weapon": 100021,
+    "value_type": 0,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": ""
+  },
+  "1402": {
+    "id": 1402,
+    "attribute_type": "冷却_五芒星",
+    "attribute_param": "cd_all",
+    "attribute_weapon": 100021,
+    "value_type": 0,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": ""
+  },
+  "1403": {
+    "id": 1403,
+    "attribute_type": "攻击范围_五芒星",
+    "attribute_param": "atkrange_all",
+    "attribute_weapon": 100021,
+    "value_type": 0,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": ""
+  },
+  "1404": {
+    "id": 1404,
+    "attribute_type": "攻速_五芒星",
+    "attribute_param": "atkfly_all",
+    "attribute_weapon": 100021,
+    "value_type": 0,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": ""
+  },
+  "1405": {
+    "id": 1405,
+    "attribute_type": "持续时间_五芒星",
+    "attribute_param": "duration_all",
+    "attribute_weapon": 100021,
+    "value_type": 0,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": ""
+  },
+  "1406": {
+    "id": 1406,
+    "attribute_type": "攻击段数_五芒星",
+    "attribute_param": "attmulti_all",
+    "attribute_weapon": 100021,
+    "value_type": 0,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": ""
+  },
+  "1407": {
+    "id": 1407,
+    "attribute_type": "伤害加深_五芒星",
+    "attribute_param": "damageup_all",
+    "attribute_weapon": 100021,
+    "value_type": 0,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": ""
+  },
+  "1408": {
+    "id": 1408,
+    "attribute_type": "伤害减免_五芒星",
+    "attribute_param": "damagedown_all",
+    "attribute_weapon": 100021,
+    "value_type": 0,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": ""
+  },
+  "1409": {
+    "id": 1409,
+    "attribute_type": "武器伤害比例_五芒星",
+    "attribute_param": "weaponrate_all",
+    "attribute_weapon": 100021,
+    "value_type": 0,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": ""
+  },
+  "1410": {
+    "id": 1410,
+    "attribute_type": "击杀吸血",
+    "attribute_param": "killhpr_all",
+    "attribute_weapon": 100021,
+    "value_type": 0,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": ""
+  },
+  "1501": {
+    "id": 1501,
+    "attribute_type": "攻击_时之刃",
+    "attribute_param": "atk_all",
+    "attribute_weapon": 100022,
+    "value_type": 0,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": ""
+  },
+  "1502": {
+    "id": 1502,
+    "attribute_type": "冷却_时之刃",
+    "attribute_param": "cd_all",
+    "attribute_weapon": 100022,
+    "value_type": 0,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": ""
+  },
+  "1503": {
+    "id": 1503,
+    "attribute_type": "攻击范围_时之刃",
+    "attribute_param": "atkrange_all",
+    "attribute_weapon": 100022,
+    "value_type": 0,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": ""
+  },
+  "1504": {
+    "id": 1504,
+    "attribute_type": "攻速_时之刃",
+    "attribute_param": "atkfly_all",
+    "attribute_weapon": 100022,
+    "value_type": 0,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": ""
+  },
+  "1505": {
+    "id": 1505,
+    "attribute_type": "持续时间_时之刃",
+    "attribute_param": "duration_all",
+    "attribute_weapon": 100022,
+    "value_type": 0,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": ""
+  },
+  "1506": {
+    "id": 1506,
+    "attribute_type": "攻击段数_时之刃",
+    "attribute_param": "attmulti_all",
+    "attribute_weapon": 100022,
+    "value_type": 0,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": ""
+  },
+  "1507": {
+    "id": 1507,
+    "attribute_type": "伤害加深_时之刃",
+    "attribute_param": "damageup_all",
+    "attribute_weapon": 100022,
+    "value_type": 0,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": ""
+  },
+  "1508": {
+    "id": 1508,
+    "attribute_type": "伤害减免_时之刃",
+    "attribute_param": "damagedown_all",
+    "attribute_weapon": 100022,
+    "value_type": 0,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": ""
+  },
+  "1509": {
+    "id": 1509,
+    "attribute_type": "武器伤害比例_时之刃",
+    "attribute_param": "weaponrate_all",
+    "attribute_weapon": 100022,
+    "value_type": 0,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": ""
+  },
+  "1510": {
+    "id": 1510,
+    "attribute_type": "击杀吸血",
+    "attribute_param": "killhpr_all",
+    "attribute_weapon": 100022,
+    "value_type": 0,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": ""
+  },
+  "1601": {
+    "id": 1601,
+    "attribute_type": "攻击_月桂",
+    "attribute_param": "atk_all",
+    "attribute_weapon": 100023,
+    "value_type": 0,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": ""
+  },
+  "1602": {
+    "id": 1602,
+    "attribute_type": "冷却_月桂",
+    "attribute_param": "cd_all",
+    "attribute_weapon": 100023,
+    "value_type": 0,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": ""
+  },
+  "1603": {
+    "id": 1603,
+    "attribute_type": "攻击范围_月桂",
+    "attribute_param": "atkrange_all",
+    "attribute_weapon": 100023,
+    "value_type": 0,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": ""
+  },
+  "1604": {
+    "id": 1604,
+    "attribute_type": "攻速_月桂",
+    "attribute_param": "atkfly_all",
+    "attribute_weapon": 100023,
+    "value_type": 0,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": ""
+  },
+  "1605": {
+    "id": 1605,
+    "attribute_type": "持续时间_月桂",
+    "attribute_param": "duration_all",
+    "attribute_weapon": 100023,
+    "value_type": 0,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": ""
+  },
+  "1606": {
+    "id": 1606,
+    "attribute_type": "攻击段数_月桂",
+    "attribute_param": "attmulti_all",
+    "attribute_weapon": 100023,
+    "value_type": 0,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": ""
+  },
+  "1607": {
+    "id": 1607,
+    "attribute_type": "伤害加深_月桂",
+    "attribute_param": "damageup_all",
+    "attribute_weapon": 100023,
+    "value_type": 0,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": ""
+  },
+  "1608": {
+    "id": 1608,
+    "attribute_type": "伤害减免_月桂",
+    "attribute_param": "damagedown_all",
+    "attribute_weapon": 100023,
+    "value_type": 0,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": ""
+  },
+  "1609": {
+    "id": 1609,
+    "attribute_type": "武器伤害比例_月桂",
+    "attribute_param": "weaponrate_all",
+    "attribute_weapon": 100023,
+    "value_type": 0,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": ""
+  },
+  "1610": {
+    "id": 1610,
+    "attribute_type": "击杀吸血",
+    "attribute_param": "killhpr_all",
+    "attribute_weapon": 100023,
+    "value_type": 0,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": ""
+  },
+  "1701": {
+    "id": 1701,
+    "attribute_type": "攻击_镰刀",
+    "attribute_param": "atk_all",
+    "attribute_weapon": 100051,
+    "value_type": 0,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": ""
+  },
+  "1702": {
+    "id": 1702,
+    "attribute_type": "冷却_镰刀",
+    "attribute_param": "cd_all",
+    "attribute_weapon": 100051,
+    "value_type": 0,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": ""
+  },
+  "1703": {
+    "id": 1703,
+    "attribute_type": "攻击范围_镰刀",
+    "attribute_param": "atkrange_all",
+    "attribute_weapon": 100051,
+    "value_type": 0,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": ""
+  },
+  "1704": {
+    "id": 1704,
+    "attribute_type": "攻速_镰刀",
+    "attribute_param": "atkfly_all",
+    "attribute_weapon": 100051,
+    "value_type": 0,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": ""
+  },
+  "1705": {
+    "id": 1705,
+    "attribute_type": "持续时间_镰刀",
+    "attribute_param": "duration_all",
+    "attribute_weapon": 100051,
+    "value_type": 0,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": ""
+  },
+  "1706": {
+    "id": 1706,
+    "attribute_type": "攻击段数_镰刀",
+    "attribute_param": "attmulti_all",
+    "attribute_weapon": 100051,
+    "value_type": 0,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": ""
+  },
+  "1707": {
+    "id": 1707,
+    "attribute_type": "伤害加深_镰刀",
+    "attribute_param": "damageup_all",
+    "attribute_weapon": 100051,
+    "value_type": 0,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": ""
+  },
+  "1708": {
+    "id": 1708,
+    "attribute_type": "伤害减免_镰刀",
+    "attribute_param": "damagedown_all",
+    "attribute_weapon": 100051,
+    "value_type": 0,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": ""
+  },
+  "1709": {
+    "id": 1709,
+    "attribute_type": "武器伤害比例_镰刀",
+    "attribute_param": "weaponrate_all",
+    "attribute_weapon": 100051,
+    "value_type": 0,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": ""
+  },
+  "1710": {
+    "id": 1710,
+    "attribute_type": "击杀吸血",
+    "attribute_param": "killhpr_all",
+    "attribute_weapon": 100051,
+    "value_type": 0,
+    "attribute_show": 0,
+    "icon_show": 0,
+    "_note2": ""
+  }
+}

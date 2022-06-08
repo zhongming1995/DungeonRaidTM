@@ -1,0 +1,121 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "anim_numb_low",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.8333333333333334,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "paths": {
+      "Num": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 0.23333333333333334,
+              "value": 255
+            },
+            {
+              "frame": 0.5,
+              "value": 255
+            },
+            {
+              "frame": 0.8333333333333334,
+              "value": 0
+            }
+          ],
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                0,
+                -23,
+                0
+              ],
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 0.15,
+              "value": [
+                0,
+                4,
+                0
+              ]
+            },
+            {
+              "frame": 0.23333333333333334,
+              "value": [
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "frame": 0.5,
+              "value": [
+                0,
+                0,
+                0
+              ],
+              "curve": [
+                0.4,
+                0.4,
+                0.6,
+                0.6
+              ]
+            },
+            {
+              "frame": 0.8333333333333334,
+              "value": [
+                0,
+                28.499,
+                0
+              ]
+            }
+          ],
+          "scale": [
+            {
+              "frame": 0,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 1,
+                "y": 0.5
+              },
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 0.15,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 1,
+                "y": 1.05
+              }
+            },
+            {
+              "frame": 0.23333333333333334,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 1,
+                "y": 1
+              }
+            },
+            {
+              "frame": 0.5,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 1,
+                "y": 1
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}

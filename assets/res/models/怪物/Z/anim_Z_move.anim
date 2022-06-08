@@ -1,0 +1,65 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "anim_Z_move",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.7833333333333333,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 2,
+  "curveData": {
+    "paths": {
+      "z1": {
+        "comps": {
+          "cc.Sprite": {
+            "spriteFrame": [
+              {
+                "frame": 0,
+                "value": {
+                  "__uuid__": "43cb95bc-e49c-4a0f-8166-5c41db2f242e"
+                }
+              },
+              {
+                "frame": 0.4,
+                "value": {
+                  "__uuid__": "db295a96-3353-4978-a9c1-cbf678da0cd5"
+                }
+              },
+              {
+                "frame": 0.7666666666666667,
+                "value": {
+                  "__uuid__": "43cb95bc-e49c-4a0f-8166-5c41db2f242e"
+                }
+              }
+            ]
+          }
+        },
+        "props": {
+          "angle": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 0.38333333333333336,
+              "value": 0
+            },
+            {
+              "frame": 0.4,
+              "value": 2
+            },
+            {
+              "frame": 0.75,
+              "value": 2
+            },
+            {
+              "frame": 0.7666666666666667,
+              "value": 0
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}

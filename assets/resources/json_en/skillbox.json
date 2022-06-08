@@ -1,0 +1,290 @@
+{
+  "1": {
+    "id": 1,
+    "random_id": 1,
+    "item_id": 100001,
+    "random_weight": 30
+  },
+  "2": {
+    "id": 2,
+    "random_id": 1,
+    "item_id": 100003,
+    "random_weight": 30
+  },
+  "3": {
+    "id": 3,
+    "random_id": 1,
+    "item_id": 100005,
+    "random_weight": 30
+  },
+  "4": {
+    "id": 4,
+    "random_id": 1,
+    "item_id": 100015,
+    "random_weight": 30
+  },
+  "5": {
+    "id": 5,
+    "random_id": 1,
+    "item_id": 100024,
+    "random_weight": 5
+  },
+  "6": {
+    "id": 6,
+    "random_id": 1,
+    "item_id": 100025,
+    "random_weight": 10
+  },
+  "7": {
+    "id": 7,
+    "random_id": 1,
+    "item_id": 100026,
+    "random_weight": 10
+  },
+  "8": {
+    "id": 8,
+    "random_id": 1,
+    "item_id": 100027,
+    "random_weight": 10
+  },
+  "9": {
+    "id": 9,
+    "random_id": 1,
+    "item_id": 100028,
+    "random_weight": 10
+  },
+  "10": {
+    "id": 10,
+    "random_id": 1,
+    "item_id": 100029,
+    "random_weight": 10
+  },
+  "11": {
+    "id": 11,
+    "random_id": 1,
+    "item_id": 100030,
+    "random_weight": 10
+  },
+  "12": {
+    "id": 12,
+    "random_id": 1,
+    "item_id": 100031,
+    "random_weight": 10
+  },
+  "13": {
+    "id": 13,
+    "random_id": 1,
+    "item_id": 100032,
+    "random_weight": 10
+  },
+  "14": {
+    "id": 14,
+    "random_id": 1,
+    "item_id": 100033,
+    "random_weight": 10
+  },
+  "15": {
+    "id": 15,
+    "random_id": 1,
+    "item_id": 100034,
+    "random_weight": 10
+  },
+  "16": {
+    "id": 16,
+    "random_id": 1,
+    "item_id": 100035,
+    "random_weight": 10
+  },
+  "17": {
+    "id": 17,
+    "random_id": 1,
+    "item_id": 100036,
+    "random_weight": 10
+  },
+  "18": {
+    "id": 18,
+    "random_id": 1,
+    "item_id": 100051,
+    "random_weight": 30
+  },
+  "19": {
+    "id": 19,
+    "random_id": 1,
+    "item_id": 100017,
+    "random_weight": 30
+  },
+  "20": {
+    "id": 20,
+    "random_id": 1,
+    "item_id": 100007,
+    "random_weight": 30
+  },
+  "21": {
+    "id": 21,
+    "random_id": 1,
+    "item_id": 100013,
+    "random_weight": 30
+  },
+  "22": {
+    "id": 22,
+    "random_id": 98,
+    "item_id": 100024,
+    "random_weight": 10000
+  },
+  "23": {
+    "id": 23,
+    "random_id": 99,
+    "item_id": 100002,
+    "random_weight": 2500
+  },
+  "24": {
+    "id": 24,
+    "random_id": 99,
+    "item_id": 100004,
+    "random_weight": 2500
+  },
+  "25": {
+    "id": 25,
+    "random_id": 99,
+    "item_id": 100006,
+    "random_weight": 2500
+  },
+  "26": {
+    "id": 26,
+    "random_id": 99,
+    "item_id": 100016,
+    "random_weight": 2500
+  },
+  "27": {
+    "id": 27,
+    "random_id": 99,
+    "item_id": 100052,
+    "random_weight": 2500
+  },
+  "28": {
+    "id": 28,
+    "random_id": 99,
+    "item_id": 100017,
+    "random_weight": 2500
+  },
+  "29": {
+    "id": 29,
+    "random_id": 99,
+    "item_id": 100008,
+    "random_weight": 2500
+  },
+  "30": {
+    "id": 30,
+    "random_id": 99,
+    "item_id": 100014,
+    "random_weight": 2500
+  },
+  "31": {
+    "id": 31,
+    "random_id": 100,
+    "item_id": 100039,
+    "random_weight": 10000
+  },
+  "32": {
+    "id": 32,
+    "random_id": 2,
+    "item_id": 100001,
+    "random_weight": 50
+  },
+  "33": {
+    "id": 33,
+    "random_id": 2,
+    "item_id": 100003,
+    "random_weight": 50
+  },
+  "34": {
+    "id": 34,
+    "random_id": 2,
+    "item_id": 100005,
+    "random_weight": 50
+  },
+  "35": {
+    "id": 35,
+    "random_id": 2,
+    "item_id": 100015,
+    "random_weight": 50
+  },
+  "36": {
+    "id": 36,
+    "random_id": 2,
+    "item_id": 100024,
+    "random_weight": 10
+  },
+  "37": {
+    "id": 37,
+    "random_id": 2,
+    "item_id": 100025,
+    "random_weight": 10
+  },
+  "38": {
+    "id": 38,
+    "random_id": 2,
+    "item_id": 100026,
+    "random_weight": 10
+  },
+  "39": {
+    "id": 39,
+    "random_id": 2,
+    "item_id": 100027,
+    "random_weight": 10
+  },
+  "40": {
+    "id": 40,
+    "random_id": 2,
+    "item_id": 100028,
+    "random_weight": 10
+  },
+  "41": {
+    "id": 41,
+    "random_id": 2,
+    "item_id": 100029,
+    "random_weight": 10
+  },
+  "42": {
+    "id": 42,
+    "random_id": 2,
+    "item_id": 100030,
+    "random_weight": 10
+  },
+  "43": {
+    "id": 43,
+    "random_id": 2,
+    "item_id": 100031,
+    "random_weight": 10
+  },
+  "44": {
+    "id": 44,
+    "random_id": 2,
+    "item_id": 100032,
+    "random_weight": 10
+  },
+  "45": {
+    "id": 45,
+    "random_id": 2,
+    "item_id": 100033,
+    "random_weight": 10
+  },
+  "46": {
+    "id": 46,
+    "random_id": 2,
+    "item_id": 100034,
+    "random_weight": 10
+  },
+  "47": {
+    "id": 47,
+    "random_id": 2,
+    "item_id": 100035,
+    "random_weight": 10
+  },
+  "48": {
+    "id": 48,
+    "random_id": 2,
+    "item_id": 100036,
+    "random_weight": 10
+  }
+}

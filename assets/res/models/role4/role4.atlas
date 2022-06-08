@@ -1,0 +1,104 @@
+
+role4.png
+size: 140,142
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+role4/jian
+  rotate: true
+  xy: 8, 43
+  size: 97, 65
+  orig: 97, 68
+  offset: 0, 3
+  index: -1
+role4/pigu
+  rotate: true
+  xy: 119, 78
+  size: 28, 19
+  orig: 28, 19
+  offset: 0, 0
+  index: -1
+role4/shenzi
+  rotate: true
+  xy: 54, 7
+  size: 34, 79
+  orig: 34, 79
+  offset: 0, 0
+  index: -1
+role4/yingzi
+  rotate: true
+  xy: 2, 29
+  size: 111, 4
+  orig: 111, 4
+  offset: 0, 0
+  index: -1
+role4/youjiao
+  rotate: false
+  xy: 96, 66
+  size: 21, 32
+  orig: 21, 32
+  offset: 0, 0
+  index: -1
+role4/youtui
+  rotate: false
+  xy: 96, 100
+  size: 21, 40
+  orig: 21, 40
+  offset: 0, 0
+  index: -1
+role4/youxie
+  rotate: false
+  xy: 8, 29
+  size: 15, 12
+  orig: 15, 12
+  offset: 0, 0
+  index: -1
+role4/ziuotui
+  rotate: false
+  xy: 33, 2
+  size: 19, 39
+  orig: 19, 39
+  offset: 0, 0
+  index: -1
+role4/zuobi
+  rotate: true
+  xy: 2, 4
+  size: 23, 29
+  orig: 23, 29
+  offset: 0, 0
+  index: -1
+role4/zuojiao
+  rotate: false
+  xy: 119, 108
+  size: 16, 32
+  orig: 16, 32
+  offset: 0, 0
+  index: -1
+role4/zuoshou
+  rotate: false
+  xy: 75, 96
+  size: 19, 44
+  orig: 19, 44
+  offset: 0, 0
+  index: -1
+role4/zuoxie
+  rotate: true
+  xy: 96, 43
+  size: 21, 13
+  orig: 21, 13
+  offset: 0, 0
+  index: -1
+role4/图层_44
+  rotate: false
+  xy: 111, 44
+  size: 15, 20
+  orig: 15, 20
+  offset: 0, 0
+  index: -1
+role4/图层_45
+  rotate: false
+  xy: 75, 53
+  size: 19, 41
+  orig: 19, 41
+  offset: 0, 0
+  index: -1

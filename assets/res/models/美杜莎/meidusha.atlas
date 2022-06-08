@@ -1,0 +1,55 @@
+
+meidusha.png
+size: 143,137
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+meidusha/houfa
+  rotate: true
+  xy: 106, 77
+  size: 58, 35
+  orig: 58, 35
+  offset: 0, 0
+  index: -1
+meidusha/shenzi
+  rotate: false
+  xy: 2, 16
+  size: 102, 119
+  orig: 102, 119
+  offset: 0, 0
+  index: -1
+meidusha/yingzi
+  rotate: false
+  xy: 2, 10
+  size: 114, 4
+  orig: 114, 4
+  offset: 0, 0
+  index: -1
+meidusha/youbi
+  rotate: false
+  xy: 126, 21
+  size: 13, 23
+  orig: 13, 23
+  offset: 0, 0
+  index: -1
+meidusha/youshou
+  rotate: true
+  xy: 106, 46
+  size: 29, 20
+  orig: 29, 20
+  offset: 0, 0
+  index: -1
+meidusha/zuobi
+  rotate: true
+  xy: 118, 2
+  size: 14, 22
+  orig: 14, 22
+  offset: 0, 0
+  index: -1
+meidusha/zuoshou
+  rotate: false
+  xy: 106, 18
+  size: 18, 26
+  orig: 18, 26
+  offset: 0, 0
+  index: -1

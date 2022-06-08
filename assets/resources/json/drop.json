@@ -1,0 +1,302 @@
+{
+  "1000001": {
+    "id": 1000001,
+    "drop_id": 500001,
+    "drop_type": 1,
+    "drop_item": 100037,
+    "num_min": 1,
+    "num_max": 1,
+    "drop_prob": 5000,
+    "_detail": "金币"
+  },
+  "1000002": {
+    "id": 1000002,
+    "drop_id": 500002,
+    "drop_type": 1,
+    "drop_item": 100037,
+    "num_min": 1,
+    "num_max": 1,
+    "drop_prob": 5000,
+    "_detail": "大中小金币随机"
+  },
+  "1000003": {
+    "id": 1000003,
+    "drop_id": 500002,
+    "drop_type": 1,
+    "drop_item": 100038,
+    "num_min": 1,
+    "num_max": 1,
+    "drop_prob": 3000,
+    "_detail": "大中小金币随机"
+  },
+  "1000004": {
+    "id": 1000004,
+    "drop_id": 500002,
+    "drop_type": 1,
+    "drop_item": 100039,
+    "num_min": 1,
+    "num_max": 1,
+    "drop_prob": 2000,
+    "_detail": "大中小金币随机"
+  },
+  "1000005": {
+    "id": 1000005,
+    "drop_id": 500003,
+    "drop_type": 1,
+    "drop_item": 100040,
+    "num_min": 1,
+    "num_max": 1,
+    "drop_prob": 8000,
+    "_detail": "蓝宝石"
+  },
+  "1000006": {
+    "id": 1000006,
+    "drop_id": 500004,
+    "drop_type": 1,
+    "drop_item": 100041,
+    "num_min": 1,
+    "num_max": 1,
+    "drop_prob": 6000,
+    "_detail": "绿宝石"
+  },
+  "1000007": {
+    "id": 1000007,
+    "drop_id": 500005,
+    "drop_type": 1,
+    "drop_item": 100042,
+    "num_min": 1,
+    "num_max": 1,
+    "drop_prob": 5000,
+    "_detail": "黄宝石"
+  },
+  "1000008": {
+    "id": 1000008,
+    "drop_id": 500006,
+    "drop_type": 1,
+    "drop_item": 100043,
+    "num_min": 1,
+    "num_max": 1,
+    "drop_prob": 4000,
+    "_detail": "红宝石"
+  },
+  "1000009": {
+    "id": 1000009,
+    "drop_id": 500007,
+    "drop_type": 2,
+    "drop_item": 100037,
+    "num_min": 1,
+    "num_max": 1,
+    "drop_prob": 6000,
+    "_detail": "火把-小金"
+  },
+  "1000010": {
+    "id": 1000010,
+    "drop_id": 500007,
+    "drop_type": 2,
+    "drop_item": 100038,
+    "num_min": 1,
+    "num_max": 1,
+    "drop_prob": 1500,
+    "_detail": "火把-大金"
+  },
+  "1000011": {
+    "id": 1000011,
+    "drop_id": 500007,
+    "drop_type": 2,
+    "drop_item": 100044,
+    "num_min": 1,
+    "num_max": 1,
+    "drop_prob": 150,
+    "_detail": "火把掉落"
+  },
+  "1000012": {
+    "id": 1000012,
+    "drop_id": 500007,
+    "drop_type": 2,
+    "drop_item": 100045,
+    "num_min": 1,
+    "num_max": 1,
+    "drop_prob": 150,
+    "_detail": "火把掉落"
+  },
+  "1000013": {
+    "id": 1000013,
+    "drop_id": 500007,
+    "drop_type": 2,
+    "drop_item": 100046,
+    "num_min": 1,
+    "num_max": 1,
+    "drop_prob": 1500,
+    "_detail": "火把-烤鸡"
+  },
+  "1000014": {
+    "id": 1000014,
+    "drop_id": 500007,
+    "drop_type": 2,
+    "drop_item": 100047,
+    "num_min": 1,
+    "num_max": 1,
+    "drop_prob": 500,
+    "_detail": "火把-戒指"
+  },
+  "1000015": {
+    "id": 1000015,
+    "drop_id": 500007,
+    "drop_type": 2,
+    "drop_item": 100038,
+    "num_min": 1,
+    "num_max": 1,
+    "drop_prob": 100,
+    "_detail": "火把-超大金"
+  },
+  "1000016": {
+    "id": 1000016,
+    "drop_id": 500007,
+    "drop_type": 2,
+    "drop_item": 100049,
+    "num_min": 1,
+    "num_max": 1,
+    "drop_prob": 150,
+    "_detail": "火把掉落"
+  },
+  "1000017": {
+    "id": 1000017,
+    "drop_id": 500008,
+    "drop_type": 1,
+    "drop_item": 100041,
+    "num_min": 1,
+    "num_max": 1,
+    "drop_prob": 10000,
+    "_detail": "初级精英怪掉落"
+  },
+  "1000018": {
+    "id": 1000018,
+    "drop_id": 500008,
+    "drop_type": 1,
+    "drop_item": 100050,
+    "num_min": 1,
+    "num_max": 1,
+    "drop_prob": 1000,
+    "_detail": "初级精英怪掉落"
+  },
+  "1000019": {
+    "id": 1000019,
+    "drop_id": 500009,
+    "drop_type": 1,
+    "drop_item": 100042,
+    "num_min": 1,
+    "num_max": 1,
+    "drop_prob": 10000,
+    "_detail": "中级精英掉落"
+  },
+  "1000020": {
+    "id": 1000020,
+    "drop_id": 500009,
+    "drop_type": 1,
+    "drop_item": 100050,
+    "num_min": 1,
+    "num_max": 1,
+    "drop_prob": 1000,
+    "_detail": "中级精英掉落"
+  },
+  "1000021": {
+    "id": 1000021,
+    "drop_id": 500010,
+    "drop_type": 1,
+    "drop_item": 100043,
+    "num_min": 1,
+    "num_max": 1,
+    "drop_prob": 10000,
+    "_detail": "高级精英掉落"
+  },
+  "1000022": {
+    "id": 1000022,
+    "drop_id": 500010,
+    "drop_type": 1,
+    "drop_item": 100050,
+    "num_min": 1,
+    "num_max": 1,
+    "drop_prob": 1000,
+    "_detail": "高级精英掉落"
+  },
+  "1000023": {
+    "id": 1000023,
+    "drop_id": 500011,
+    "drop_type": 1,
+    "drop_item": 100041,
+    "num_min": 1,
+    "num_max": 1,
+    "drop_prob": 10000,
+    "_detail": "初级boss掉落"
+  },
+  "1000024": {
+    "id": 1000024,
+    "drop_id": 500011,
+    "drop_type": 1,
+    "drop_item": 100050,
+    "num_min": 1,
+    "num_max": 1,
+    "drop_prob": 10000,
+    "_detail": "初级boss掉落"
+  },
+  "1000025": {
+    "id": 1000025,
+    "drop_id": 500012,
+    "drop_type": 1,
+    "drop_item": 100042,
+    "num_min": 1,
+    "num_max": 1,
+    "drop_prob": 10000,
+    "_detail": "中级boss掉落"
+  },
+  "1000026": {
+    "id": 1000026,
+    "drop_id": 500012,
+    "drop_type": 1,
+    "drop_item": 100050,
+    "num_min": 1,
+    "num_max": 1,
+    "drop_prob": 10000,
+    "_detail": "中级boss掉落"
+  },
+  "1000027": {
+    "id": 1000027,
+    "drop_id": 500013,
+    "drop_type": 1,
+    "drop_item": 100043,
+    "num_min": 1,
+    "num_max": 1,
+    "drop_prob": 10000,
+    "_detail": "高级boss掉落"
+  },
+  "1000028": {
+    "id": 1000028,
+    "drop_id": 500013,
+    "drop_type": 1,
+    "drop_item": 100050,
+    "num_min": 1,
+    "num_max": 1,
+    "drop_prob": 10000,
+    "_detail": "高级boss掉落"
+  },
+  "1000029": {
+    "id": 1000029,
+    "drop_id": 500014,
+    "drop_type": 1,
+    "drop_item": 100043,
+    "num_min": 2,
+    "num_max": 5,
+    "drop_prob": 10000,
+    "_detail": "最终怪物掉落"
+  },
+  "1000030": {
+    "id": 1000030,
+    "drop_id": 500014,
+    "drop_type": 1,
+    "drop_item": 100050,
+    "num_min": 1,
+    "num_max": 1,
+    "drop_prob": 5000,
+    "_detail": "最终怪物掉落"
+  }
+}
